@@ -304,11 +304,11 @@
 	},
 	"sources": {
 		"contracts/CZKC.sol": {
-			"keccak256": "0xa0b4b8f2e3191d1184c34ed6a9f8f1d6bb5370d50bd1c043dcab60f704d13bf9",
+			"keccak256": "0x1afc6df67651b5804af46f6d45f4e7842da0712b408f704458d6f99baf5a6e31",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://84d9ba6c9c5d318dbdda64c7e6cfa2728b50238a448efc592ef0434f24cca756",
-				"dweb:/ipfs/QmNX8wWNpCK8LcZ3gaXAPW95Jevs1zFS2gt9aULAXUM25q"
+				"bzz-raw://49467c7f7efcaa2a6d83d55542d927f2b2a56ed9b252dbb804f8705827542cdc",
+				"dweb:/ipfs/QmXakhQhf1ez5XpdVZqyzctNJ1CyFVJEoQqetCT6SKXrFi"
 			]
 		},
 		"contracts/IERC20.sol": {

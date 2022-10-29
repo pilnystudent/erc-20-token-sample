@@ -26,13 +26,13 @@ contract CZKC is IERC20{
         return true;
     }
 
-    function approve(address spender, uint amount) external returns (bool){
+    function approve(address spender, uint amount) external returns (bool) {
         allowance[msg.sender][spender] = amount;
         emit Approval(msg.sender, spender, amount);
         return true;
     }
 
-    function transferFrom(address spender, address recipient, uint amount) external returns (bool){
+    function transferFrom(address spender, address recipient, uint amount) external returns (bool) {
         allowance[spender][msg.sender] -= amount;
         balanceOf[spender] -= amount;
         balanceOf[recipient] += amount;
@@ -40,14 +40,14 @@ contract CZKC is IERC20{
         return true;
     }
 
-    function mint(address recipient, uint amount) external returns(bool){
+    function mint(address recipient, uint amount) external returns(bool) {
         totalSupply += amount;
         balanceOf[recipient] += amount;
         emit Transfer(address(0), recipient, amount);
         return true;
     }
 
-    function burn(uint amount) external returns(bool){
+    function burn(uint amount) external returns(bool) {
         totalSupply -= amount;
         balanceOf[msg.sender] -= amount;
         emit Transfer(msg.sender, address(0), amount);
