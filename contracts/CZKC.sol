@@ -8,10 +8,10 @@ contract CZKC is IERC20{
     string private _name;
     string private _symbol;
     uint8 private _decimals;
-    uint256 private _totalSupply;
+    uint private _totalSupply;
 
-    mapping(address => uint256) private _balances;
-    mapping(address => mapping(address => uint256)) private _allowances;
+    mapping(address => uint) private _balances;
+    mapping(address => mapping(address => uint)) private _allowances;
 
     constructor() {
         _name = "CZK Coin";
@@ -31,36 +31,50 @@ contract CZKC is IERC20{
         return _decimals;
     }
 
-    function totalSupply() external view returns (uint256) {
+    function totalSupply() external view returns (uint) {
         return _totalSupply;
     }
 
-    function balanceOf(address account) external view returns (uint256) {
+    function balanceOf(address account) external view returns (uint) {
         return _balances[account];
     }
 
-    function allowance(address owner, address spender) external view returns (uint256){
+    function allowance(address owner, address spender) external view returns (uint){
         return _allowances[owner][spender];
     }
 
-    function transfer(address to, uint256 amount) external returns (bool) {
+    function transfer(address to, uint amount) external returns (bool) {
         _balances[msg.sender] -= amount;
         _balances[to] += amount;
         emit Transfer(msg.sender, to, amount);
         return true;
     }
 
-    function approve(address spender, uint256 amount) external returns (bool){
+    function approve(address spender, uint amount) external returns (bool){
         _allowances[msg.sender][spender] = amount;
         emit Approval(msg.sender, spender, amount);
         return true;
     }
 
-    function transferFrom(address spender, address recipient, uint256 amount) external returns (bool){
+    function transferFrom(address spender, address recipient, uint amount) external returns (bool){
         _allowances[spender][msg.sender] -= amount;
         _balances[spender] -= amount;
         _balances[recipient] += amount;
         emit Transfer(spender, recipient, amount);
+        return true;
+    }
+
+    function mint(address recipient, uint amount) external returns(bool){
+        _totalSupply += amount;
+        _balances[recipient] += amount;
+        emit Transfer(address(0), recipient, amount);
+        return true;
+    }
+
+    function burn(uint amount) external returns(bool){
+        _totalSupply -= amount;
+        _balances[msg.sender] -= amount;
+        emit Transfer(msg.sender, address(0), amount);
         return true;
     }
 }

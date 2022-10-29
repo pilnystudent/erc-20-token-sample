@@ -128,6 +128,25 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "burn",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "decimals",
 				"outputs": [
@@ -138,6 +157,30 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "mint",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -261,11 +304,11 @@
 	},
 	"sources": {
 		"contracts/CZKC.sol": {
-			"keccak256": "0x1f3624d377b094e6b90c1f89385eb1f314d54113b3524763e3833134b0f58a90",
+			"keccak256": "0x3b831125862075c6d25613099e6febe06c2e06854ac41c549258b5f4ab542178",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://78a6d866d905aeab4dbc5c863324544071facf9b959f866fc443a4b86049dc89",
-				"dweb:/ipfs/QmSaHpwVFiGkWB6UUZBoyXVQjV5C8eWjewwUe1Jsasr62L"
+				"bzz-raw://cfd2ecb8945a78f373daf41763957e52f9be499e1ca8e58e1a0d312d2a28aa6d",
+				"dweb:/ipfs/QmYV5FsoYA2SGfHaEi27YBdgfKN3MkqG8w4pVdTWDDcQ5C"
 			]
 		},
 		"contracts/IERC20.sol": {
