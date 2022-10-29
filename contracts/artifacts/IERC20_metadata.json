@@ -6,11 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"anonymous": false,
 				"inputs": [
 					{
@@ -129,45 +124,6 @@
 			},
 			{
 				"inputs": [],
-				"name": "decimals",
-				"outputs": [
-					{
-						"internalType": "uint8",
-						"name": "",
-						"type": "uint8"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "name",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "symbol",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "totalSupply",
 				"outputs": [
 					{
@@ -207,12 +163,12 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "spender",
+						"name": "from",
 						"type": "address"
 					},
 					{
 						"internalType": "address",
-						"name": "recipient",
+						"name": "to",
 						"type": "address"
 					},
 					{
@@ -246,7 +202,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/CZKC.sol": "CZKC"
+			"contracts/IERC20.sol": "IERC20"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -260,14 +216,6 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/CZKC.sol": {
-			"keccak256": "0x1f3624d377b094e6b90c1f89385eb1f314d54113b3524763e3833134b0f58a90",
-			"license": "GPL-3.0",
-			"urls": [
-				"bzz-raw://78a6d866d905aeab4dbc5c863324544071facf9b959f866fc443a4b86049dc89",
-				"dweb:/ipfs/QmSaHpwVFiGkWB6UUZBoyXVQjV5C8eWjewwUe1Jsasr62L"
-			]
-		},
 		"contracts/IERC20.sol": {
 			"keccak256": "0xa0e19d33096991db517937b1316e4a95b576f969c29f0db25e5094c2af3a77ef",
 			"license": "GPL-3.0",
