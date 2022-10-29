@@ -58,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"CZKC.sol": "CZKC"
+			"contracts/CZKC.sol": "CZKC"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -72,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"CZKC.sol": {
-			"keccak256": "0xab3b5b3106d65abe451aa2395f279db59ae44b8d1f22cf00f1d8ef6d1aede8da",
+		"contracts/CZKC.sol": {
+			"keccak256": "0xe0ad073c05a12a76b8a9f501cb1ffd80241fe2499535601d065dfa929d5f8486",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1606a7a1f8cecba18fb3fc090901e4e93f0d38d9a57d9a599eb2bdcec88a5235",
-				"dweb:/ipfs/QmbSdSCu4VLv1Bg58xKqWsP8Uxo3Lbadptp1x1UYpFcmP4"
+				"bzz-raw://2df5577af63eeb85d40f3754c8504e2654b7e55185009c2dba50bc2a376e2ada",
+				"dweb:/ipfs/QmZyoVaESMAnpp9KZ5vpUhieCtKCUUHVTPdwtjheoAP23j"
 			]
 		}
 	},
