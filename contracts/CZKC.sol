@@ -19,10 +19,10 @@ contract CZKC is IERC20{
         decimals = 18;
     }
 
-    function transfer(address to, uint amount) external returns (bool) {
+    function transfer(address recipient, uint amount) external returns (bool) {
         balanceOf[msg.sender] -= amount;
-        balanceOf[to] += amount;
-        emit Transfer(msg.sender, to, amount);
+        balanceOf[recipient] += amount;
+        emit Transfer(msg.sender, recipient, amount);
         return true;
     }
 
