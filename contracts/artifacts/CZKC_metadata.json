@@ -64,12 +64,12 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "owner",
+						"name": "",
 						"type": "address"
 					},
 					{
 						"internalType": "address",
-						"name": "spender",
+						"name": "",
 						"type": "address"
 					}
 				],
@@ -112,7 +112,7 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "account",
+						"name": "",
 						"type": "address"
 					}
 				],
@@ -304,11 +304,11 @@
 	},
 	"sources": {
 		"contracts/CZKC.sol": {
-			"keccak256": "0x3b831125862075c6d25613099e6febe06c2e06854ac41c549258b5f4ab542178",
+			"keccak256": "0x92d0c2f24e1a1ce20c8c52a50bc97889937c5a577b39b1d2d8657984c316617d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://cfd2ecb8945a78f373daf41763957e52f9be499e1ca8e58e1a0d312d2a28aa6d",
-				"dweb:/ipfs/QmYV5FsoYA2SGfHaEi27YBdgfKN3MkqG8w4pVdTWDDcQ5C"
+				"bzz-raw://5870c343d25a37421600e383b1daff0a3619771062cbb18209304e118e9aacaf",
+				"dweb:/ipfs/QmcZAZvHp4ap8SQxXy74wRWA4GYZ21NHmVNCo1VxqXjsPG"
 			]
 		},
 		"contracts/IERC20.sol": {
