@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"CZKC.sol": "CZKC"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"CZKC.sol": {
+			"keccak256": "0x14b5fcf5be19a23853d4373ebebdb3738cc031a0fa41187204689d5ec8edac83",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://58dd37413b04f636e35fd90ce7e204c55aa903f39c4695f53b4a5fbaaf01e3e3",
+				"dweb:/ipfs/QmZT341dPSbTXk3HyXLvCeMS3NSojPx6BR1rCh28uZ9ptd"
+			]
+		}
+	},
+	"version": 1
+}
