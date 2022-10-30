@@ -6,7 +6,6 @@ import "./IERC20.sol";
 
 contract ERC20 is IERC20{
     uint public totalSupply;
-
     mapping(address => uint) public balanceOf;
     mapping(address => mapping(address => uint)) public allowance;
 
