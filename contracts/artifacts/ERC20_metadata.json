@@ -6,11 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"anonymous": false,
 				"inputs": [
 					{
@@ -128,101 +123,6 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "burn",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "decimals",
-				"outputs": [
-					{
-						"internalType": "uint8",
-						"name": "",
-						"type": "uint8"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "recipient",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "mint",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "name",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "symbol",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [],
 				"name": "totalSupply",
 				"outputs": [
@@ -302,7 +202,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/CZKC.sol": "CZKC"
+			"contracts/ERC20.sol": "ERC20"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -316,14 +216,6 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/CZKC.sol": {
-			"keccak256": "0x6e4ae3b2059423262a945673a8c3e6721b06ec76457caf789817554a5a40ff00",
-			"license": "GPL-3.0",
-			"urls": [
-				"bzz-raw://8c51c14d14e2bdf4619174eff4f0d8872566461a169acf979ad3d264b034343a",
-				"dweb:/ipfs/QmbuL6P8SAp7vpZF1BgYcRtUr6LpCjn9zo5zdmu8k6xxG8"
-			]
-		},
 		"contracts/ERC20.sol": {
 			"keccak256": "0x5878135db6ca30d96ce7047368621ef9f757ec5a5969d2c5ffc3e3375c80c45e",
 			"license": "GPL-3.0",
