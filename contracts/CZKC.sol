@@ -11,7 +11,7 @@ contract CZKC is ERC20{
     address public owner;
 
     constructor() {
-        name = "CZK Coin";
+        name = "CZK Coin2";
         symbol = "CZKC";
         decimals = 18;
         owner = msg.sender;
