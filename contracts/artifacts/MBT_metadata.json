@@ -317,19 +317,19 @@
 	},
 	"sources": {
 		"contracts/ERC20.sol": {
-			"keccak256": "0xccfc2fca2a0f2b550871996ae438bb1b2c0bfb95770ebcc7c31e880b9100a5ed",
+			"keccak256": "0xaeca198a36c8ad2d0e96d50d2ec337dc6962697256e0ef7ca7ca5c15995f6678",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://9246df7b8f837162e404755868a016c82b06b4d24e0f24703b0a0b5ad711eb84",
-				"dweb:/ipfs/QmZrTcZmmFmRiwXqZWZn5dHCRS2jBirUs41CHwY5Zh917Z"
+				"bzz-raw://3dcba03497636c0e4cf07e54140f4c9178f33ba3013ceac7697ac08e7212a937",
+				"dweb:/ipfs/QmXyC2z41VUopbuReNpJwAYVg9zJ3AAHvg37f6K2PYz3Ym"
 			]
 		},
 		"contracts/IERC20.sol": {
-			"keccak256": "0x6c0a5444e6c18ef2054c4f72efe493c712d27d19ace4a0423829f66fed276ef6",
+			"keccak256": "0xabed9fd604dfb695bcc1658f669b66d56e0157dd0e9e82d8abdcdf63dea28312",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://9bf6e529d8ba8553e6278184ebef751e1cec6786857e931b8127971e7b18b757",
-				"dweb:/ipfs/QmPaVcUsovrRRXj2RALNCMoanpNWJhrECxctrVuuh6N3pa"
+				"bzz-raw://55cdc3b74f20d6a2a11fd12e3e53d90ada5f7116524d2eeba8722e3655e73d65",
+				"dweb:/ipfs/QmPz241bpMkkt5h8SHHSKCX8VaqhMygzTTErBpyNwn8bz2"
 			]
 		},
 		"contracts/MBT.sol": {
