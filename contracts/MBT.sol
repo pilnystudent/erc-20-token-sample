@@ -4,15 +4,11 @@ pragma solidity ^0.8.17;
 
 import "./ERC20.sol";
 
-contract CZKC is ERC20{
-    string public name;
-    string public symbol;
-    uint8 public decimals;
-    address public owner;
+contract MBT is ERC20{
 
     constructor() {
-        name = "CZK Coin2";
-        symbol = "CZKC";
+        name = "Mintable Burnable Token";
+        symbol = "MBT";
         decimals = 18;
         owner = msg.sender;
     }

@@ -1,5 +1,8 @@
-CZKC
-    CZKC Token
-    CZKC DAO Token
-    CZKC app czkc.cz / czkc.app / czkc.fi
-    CZKC web3 app app.czkc.cz / app.czkc.app / app.czkc.fi
+
+# MBT Token
+
+- name: Mintable Burnable Token
+- symbol: MBT
+- decimals: 18
+- mint: only owner
+- burn: anybody
