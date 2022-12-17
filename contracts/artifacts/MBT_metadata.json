@@ -333,11 +333,11 @@
 			]
 		},
 		"contracts/MBT.sol": {
-			"keccak256": "0x71b7ec29a2e4aef8a6d40311bb8fb4d9d52d7d5ac00d6de566f6d1a5caf95330",
+			"keccak256": "0x669097567bfcabea66294d7318eab45969a1db454fb5c51cf137d9a7fc799251",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b2299fd76365de89933e3f4d61d2ff41fcb85c5a31edc61f87014c381ab3ab74",
-				"dweb:/ipfs/QmdtXsySqjW7D3aYs277JmZDYkZS6XRwQCVPp3dL6ZQynd"
+				"bzz-raw://bf6538b6b79faee125be86ebabb47fde411231bb2164ce1189900eec54f11630",
+				"dweb:/ipfs/QmaxUMNQRJoiV9gSFe7VWpWZbgYWkcsxuzUarPJgommWhe"
 			]
 		}
 	},
