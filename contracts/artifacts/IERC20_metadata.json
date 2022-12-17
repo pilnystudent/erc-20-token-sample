@@ -217,11 +217,11 @@
 	},
 	"sources": {
 		"contracts/IERC20.sol": {
-			"keccak256": "0xabed9fd604dfb695bcc1658f669b66d56e0157dd0e9e82d8abdcdf63dea28312",
-			"license": "GPL-3.0",
+			"keccak256": "0x17fa930f09194f76bf4f2db003eece53224fa621ccffa6e8e221e5eb9d0b4fae",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://55cdc3b74f20d6a2a11fd12e3e53d90ada5f7116524d2eeba8722e3655e73d65",
-				"dweb:/ipfs/QmPz241bpMkkt5h8SHHSKCX8VaqhMygzTTErBpyNwn8bz2"
+				"bzz-raw://67a49b4da5f9121c309299e0b4eaa3628d0fcba333080f9d1f0ab3b581ba2f61",
+				"dweb:/ipfs/QmcAmS9VsUjkzg2C6HmG2dtpBTnSabDAgGeqjjRMUanKLj"
 			]
 		}
 	},
